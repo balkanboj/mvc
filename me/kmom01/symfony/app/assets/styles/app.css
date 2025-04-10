@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(232, 248, 255);
+    margin: 0 auto;
+    width: 800;
+    /* max-width: 1000px; */
+}
+
+body {
+    background: url('../images/background.jpg');
+    background-size: cover;
+}
+
+header{
+    height: 250px;
+}
+
+h1 {
+    border-bottom: 4px double #333;
+}
