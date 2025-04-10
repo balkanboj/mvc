@@ -54,10 +54,26 @@ h1 {
     padding: 0;
 }
 
+.spin-hover {
+    transition: transform 0.6s ease-in-out;
+}
+
+.spin-hover:hover {
+    transform: rotate(360deg);
+}
+
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+}
+.container-L {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     gap: 50px;
 }
 .container-L{
@@ -65,6 +81,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .container-R{
     width: 50%;
